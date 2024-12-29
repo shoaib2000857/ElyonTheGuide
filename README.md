@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Elyon The Guide
 
-## Getting Started
+Elyon The Guide is a thoughtful chatbot experience with a wise mentor named Elyon. Elyon is an ancient being who has spent centuries gathering knowledge and learning from diverse cultures, fields, and philosophies. Elyon provides thoughtful advice, helping users learn and grow by offering insights, analogies, and reflections.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Chat Interface**: Engage in conversations with Elyon through a user-friendly chat interface.
+- **Voice Recognition**: Use voice commands to interact with Elyon.
+- **Text-to-Speech**: Elyon can speak responses aloud.
+- **Language Support**: Supports multiple languages for both text and voice interactions.
+- **Persona Page**: Learn more about Elyon's backstory and personality traits.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Clone the repository**:
+    ```sh
+    git clone https://github.com/shoaib2000857/ElyonTheGuide.git
+    cd ElyonTheGuide
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Install dependencies**:
+    ```sh
+    npm install
+    ```
 
-## Learn More
+3. **Set up environment variables**:
+    Create a [.env.local](http://_vscodecontentref_/2) file in the root directory and add your environment variables:
+    ```env
+    NEXT_GEMINI_API=your_google_generative_ai_api_key
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Run the development server**:
+    ```sh
+    npm run dev
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. **Build for production**:
+    ```sh
+    npm run build
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+6. **Start the production server**:
+    ```sh
+    npm start
+    ```
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Chat Interface**: Navigate to the chat page to start a conversation with Elyon.
+- **Voice Commands**: Use the microphone button to start and stop voice recognition.
+- **Learn About Elyon**: Visit the persona page to learn more about Elyon's backstory and personality traits.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Project Structure
+
+- [ChatInterface.js](http://_vscodecontentref_/3): The main chat interface component.
+- [page.js](http://_vscodecontentref_/4): The main landing page.
+- [page.js](http://_vscodecontentref_/5): The persona page with Elyon's backstory.
+- [route.js](http://_vscodecontentref_/6): The API route for handling NLP requests.
+
+## Hosting
+
+This project is hosted on [https://elyon.shoaibssm.me/](https://elyon.shoaibssm.me/).
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## Acknowledgements
+
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Vercel](https://vercel.com/)
+- [Google Generative AI](https://cloud.google.com/ai-platform/generative-ai)
+
+## Contact
+
+For any inquiries, please contact [your-email@example.com].
