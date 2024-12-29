@@ -1,21 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia:wght@400&family=Arial:wght@400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --tan: #fdf3e7;
+  --light-brown: #e0c097;
+  --brown: #c89f7b;
+  --dark-brown: #8b5e3c;
+  --gold: #d4af37;
+  --font-serif: 'Georgia', serif;
+  --font-sans: 'Arial', sans-serif;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark-brown);
+  background: var(--tan);
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.bg-pattern {
+  background-image: url('/path/to/your/pattern.png'); /* Add your pattern image here */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-serif);
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: var(--dark-brown);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: var(--font-sans);
+  transition: background-color 0.3s ease-in-out;
+  border: 2px solid var(--gold);
+}
+
+button:hover {
+  background-color: var(--brown);
+}
+
+header {
+  background-color: var(--light-brown);
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid var(--gold);
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid var(--gold);
+}
+
+footer {
+  background-color: var(--light-brown);
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+a {
+  color: var(--dark-brown);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for sections */
+.section {
+  padding: 40px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  background-color: #ffffff;
 }
