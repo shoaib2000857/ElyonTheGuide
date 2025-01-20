@@ -1,7 +1,6 @@
 "use client"; // Add this directive
 
 import './globals.css'; // Import global styles
-import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 export default function Layout({ children }) {
