@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Persona() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8 bg-tan">
-      <div className="w-full max-w-3xl bg-white p-6 rounded-lg shadow-md border-t-4 border-gold">
+      <div className="w-full max-w-3xl bg-brown p-6 rounded-lg shadow-md border-t-4 border-gold">
         <img
           src="/cartoon avatar of Elyon, The Wise Mentor (1).png"
           alt="Elyon Avatar"

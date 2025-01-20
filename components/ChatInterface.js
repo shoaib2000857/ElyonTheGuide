@@ -124,7 +124,7 @@ export default function ChatInterface() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 bg-tan bg-pattern">
-      <div className="w-full max-w-2xl flex flex-col space-y-4 bg-white p-6 rounded-lg shadow-md border-t-4 border-gold">
+      <div className="w-full max-w-2xl flex flex-col space-y-4 bg-brown p-6 rounded-lg shadow-md border-t-4 border-gold">
         {/* Language Selector */}
         <select
           value={selectedLanguage}

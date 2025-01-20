@@ -82,10 +82,26 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Styling for sections */
-.section {
-  padding: 40px;
-  margin-bottom: 40px;
-  border-radius: 8px;
-  background-color: #ffffff;
+/* Dark mode styles */
+.dark body {
+  color: #d4af37; /* Slightly lighter text color */
+  background: #3b2f2f; /* Darker brown background */
+}
+
+.dark header, .dark main, .dark footer {
+  background-color: #4a3a3a; /* Darker brown for elements */
+  color: #d4af37; /* Slightly lighter text color */
+}
+
+.dark button {
+  background-color: #5c4b4b; /* Darker brown for buttons */
+  color: #d4af37; /* Slightly lighter text color */
+}
+
+.dark button:hover {
+  background-color: #6d5c5c; /* Slightly lighter brown on hover */
+}
+
+.dark a {
+  color: #d4af37; /* Slightly lighter text color */
 }
