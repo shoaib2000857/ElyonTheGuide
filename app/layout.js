@@ -30,8 +30,6 @@ export default function Layout({ children }) {
             <nav className="flex justify-between items-center mb-4">
               <h1 className="text-5xl font-serif text-dark-brown">Elyon, The Wise Mentor</h1>
               <div>
-                <Link href="/login" className="text-dark-brown hover:text-gold mx-2">Login</Link>
-                <Link href="/signup" className="text-dark-brown hover:text-gold mx-2">Signup</Link>
                 <button onClick={toggleDarkMode} className="ml-4 p-2 bg-dark-brown text-white rounded-lg hover:bg-brown transition duration-300">
                   {darkMode ? 'Light Mode' : 'Dark Mode'}
                 </button>
